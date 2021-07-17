@@ -51,7 +51,7 @@ function addSelectionResult(selection, winner){
     const div = document.createElement('div')
     div.innerText = selection.emoji
     div.classList.add('result-selection')
-    if (winner) div.classList.add('winner')
+    if (winner) div.classList.add('result-selection-winner')
 finalColumn.after(div)
 }
 

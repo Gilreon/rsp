@@ -31,16 +31,17 @@ body {
 
 .result-score {
     margin-left: .1rem;
-    font-size: .5rem;
+    font-size: 25px;
     color: #333;
 }
 
 .result-selection {
     opacity: .5;
+    font-size: 40px;
 
 }
 
 .result-selection-winner {
     opacity: 1;
-    font-size: 1.5rem;
+    font-size: 40px;
 }
